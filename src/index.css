@@ -6,4 +6,7 @@
     .xsm\:hidden {
         display: none;
     }
+    .xsm\:flex {
+        display: inline-block;
+    }
 }
