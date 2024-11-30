@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .xsm\:hidden {
+        display: none;
+    }
+}
