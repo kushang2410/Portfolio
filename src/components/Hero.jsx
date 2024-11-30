@@ -24,9 +24,9 @@ const Hero = () => {
           <h1 className="text-5xl font-bold mb-4 text-gray-800 dark:text-white">KUSHANG TANAWALA</h1>
           <h2 className="text-2xl text-gray-600 dark:text-gray-300 mb-8">Full Stack Developer</h2>
 
-          <div className="flex justify-center space-x-6 mb-8">
+          <div className="sm:flex xsm:flex justify-center space-x-6 mb-8">
             <a href="mailto:kushangtanawala@gmail.com" className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-              <Mail className="w-5 h-5 mr-2" />
+              <Mail className="w-5 h-5 mr-2 my-4" />
               kushangtanawala@gmail.com
             </a>
             <a href="tel:+919023918382" className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
