@@ -39,6 +39,16 @@ const Projects = () => {
       ]
     },
     {
+      title: "Smile Detector",
+      description: "web application that leverages facial recognition technology to detect and capture users' smiles.",
+      technologies: ["React", "Boostrap"],
+      link: "https://smile-detector-e66x.vercel.app/",
+      features: [
+        "Utilizes the face-api.js library to detect facial expressions, specifically focusing on smiles and angry expressions.",
+        "Features engaging and flirty messages to make the user experience more enjoyable."
+      ]
+    },
+    {
       title: "Coffee King",
       description: "Developed a static website for a coffee brand with a responsive and interactive design.",
       technologies: ["HTML", "CSS", "JavaScript"],
@@ -47,28 +57,6 @@ const Projects = () => {
         "Incorporated an aesthetically pleasing layout to represent the brand effectively.",
         "Added basic interactive features to enhance user engagement.",
         "Ensured responsive design compatibility across various devices."
-      ]
-    },
-    {
-      title: "Watch Website",
-      description: "Created a minimalist and responsive static website for a watch brand.",
-      technologies: ["HTML", "CSS", "jQuery"],
-      link: "https://kushang2410.github.io/Watch/",
-      features: [
-        "Focused on creating a minimalist design to highlight the product's elegance.",
-        "Implemented a responsive layout for seamless viewing on all screen sizes.",
-        "Integrated jQuery for dynamic content loading and interactive elements."
-      ]
-    },
-    {
-      title: "Admin Dashboard",
-      description: "Built a dynamic static admin panel interface for efficient admin management.",
-      technologies: ["HTML", "CSS", "jQuery"],
-      link: "https://kushang2410.github.io/Admin-Panel-CSS3/",
-      features: [
-        "Designed an intuitive navigation system for managing administrative tasks efficiently.",
-        "Integrated dynamic UI elements such as dropdowns and modals.",
-        "Dark and Light Mode also added."
       ]
     },
     {
