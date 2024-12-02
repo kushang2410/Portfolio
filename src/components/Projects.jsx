@@ -39,6 +39,16 @@ const Projects = () => {
       ]
     },
     {
+      title: "Chat Application",
+      description: "A real-time chat application with user authentication, message sending, and typing indicators.",
+      technologies: ["React", "Boostrap"],
+      link: "https://chat-application-tau-azure.vercel.app/",
+      features: [
+        "The app includes a signup and login system to manage user accounts, ensuring secure access to the chat functionality.",
+        "Users can send and receive messages in real-time, with features like message clearing, media sharing, and typing indicators to enhance the chat experience."
+      ]
+    },
+    {
       title: "Smile Detector",
       description: "web application that leverages facial recognition technology to detect and capture users' smiles.",
       technologies: ["React", "Boostrap"],
@@ -57,17 +67,6 @@ const Projects = () => {
         "Incorporated an aesthetically pleasing layout to represent the brand effectively.",
         "Added basic interactive features to enhance user engagement.",
         "Ensured responsive design compatibility across various devices."
-      ]
-    },
-    {
-      title: "Travel Booking Website",
-      description: "Designed a responsive static travel booking website to showcase travel packages.",
-      technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-      link: "https://kushang2410.github.io/Book-Ticket/",
-      features: [
-        "Designed sections for showcasing travel packages and deals effectively.",
-        "Used Bootstrap components to ensure a responsive and mobile-friendly layout.",
-        "Incorporated basic JavaScript for enhancing interactivity and usability."
       ]
     }
   ];
