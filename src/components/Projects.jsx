@@ -49,16 +49,6 @@ const Projects = () => {
       ]
     },
     {
-      title: "Chat Application",
-      description: "A real-time chat application with user authentication, message sending, and typing indicators.",
-      technologies: ["React", "Boostrap"],
-      link: "https://chat-application-rho-eight.vercel.app/",
-      features: [
-        "The app includes a signup and login system to manage user accounts, ensuring secure access to the chat functionality.",
-        "Users can send and receive messages in real-time, with features like message clearing, media sharing, and typing indicators to enhance the chat experience."
-      ]
-    },
-    {
       title: "Coffee King",
       description: "Developed a static website for a coffee brand with a responsive and interactive design.",
       technologies: ["HTML", "CSS", "JavaScript"],
