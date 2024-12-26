@@ -5,7 +5,7 @@ import { Github, Mail, Phone, MapPin, Download } from 'lucide-react';
 const Hero = () => {
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?id=1Z3n3EnGMkS7Vrx7uT9pJzMWb2E68H5oF&export=download';
+    link.href = 'https://drive.google.com/uc?id=12kH9MtFM3nGiQ1gL11ymYz2nSWKqpMlk&export=download';
     link.download = 'Resume.pdf';
     document.body.appendChild(link);
     link.click();
