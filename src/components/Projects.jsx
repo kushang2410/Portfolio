@@ -8,7 +8,7 @@ const Projects = () => {
       title: "Clostore",
       description: "Developed a e-commerce website with dynamic product listings, secure user authentication and many more.",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
-      link: "",
+      link: "https://clostore.vercel.app/",
       features: [
         "Developed a feature-rich e-commerce website for clothing using React, providing a seamless shopping experience.",
         "Implemented dynamic product listing, category filtering, and a responsive design for optimal usability across devices.",
@@ -39,16 +39,6 @@ const Projects = () => {
       ]
     },
     {
-      title: "Smile Detector",
-      description: "web application that leverages facial recognition technology to detect and capture users' smiles.",
-      technologies: ["React", "Boostrap"],
-      link: "https://smile-detector-e66x.vercel.app/",
-      features: [
-        "Utilizes the face-api.js library to detect facial expressions, specifically focusing on smiles and angry expressions.",
-        "Features engaging and flirty messages to make the user experience more enjoyable."
-      ]
-    },
-    {
       title: "Chat Application",
       description: "A real-time chat application with user authentication, message sending, and typing indicators.",
       technologies: ["React", "Tailwind"],
@@ -56,6 +46,16 @@ const Projects = () => {
       features: [
         "The app includes a signup and login system to manage user accounts, ensuring secure access to the chat functionality.",
         "Users can send and receive messages in real-time, with features like message clearing, media sharing, and typing indicators to enhance the chat experience."
+      ]
+    },
+    {
+      title: "Smile Detector",
+      description: "web application that leverages facial recognition technology to detect and capture users' smiles.",
+      technologies: ["React", "Boostrap"],
+      link: "https://smile-detector-e66x.vercel.app/",
+      features: [
+        "Utilizes the face-api.js library to detect facial expressions, specifically focusing on smiles and angry expressions.",
+        "Features engaging and flirty messages to make the user experience more enjoyable."
       ]
     },
     {
@@ -95,10 +95,7 @@ const Projects = () => {
                 className="bg-white p-6 rounded-lg shadow-md bg-gray-50 dark:bg-gray-700 dark:text-white"
               >
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{project.title}</h3>
-                  {index === 0 ? (
-                    <span className="text-gray-500 italic">Under Development</span>
-                  ) : (
+                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{project.title}</h3> 
                     <a
                       href={project.link}
                       target="_blank"
@@ -109,7 +106,6 @@ const Projects = () => {
                       <ExternalLink className="w-5 h-5 mr-1" />
                       View Project
                     </a>
-                  )}
                 </div>
                 <p className="text-gray-600 dark:text-white mb-4">{project.description}</p>
                 <div className="mb-4">
