@@ -8,7 +8,7 @@ const Education = () => {
     {
       degree: "Bachelor of Computer Applications (BCA)",
       institution: "Vidhyadeep Institute of Computer And Information Technology",
-      year: "Expected - 2025-26",
+      year: "Expected - 2026-27",
       current: true
     },
     {
